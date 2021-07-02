@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercice9</title>
+    <link rel="stylesheet" href="asset/css/style.css">
+</head>
+
+<body>
+
+    <form method="POST" action="">
+
+        <fieldset class="legend">
+            <legend class="legend">Votre identité</legend>
+            <div class="marge">
+                <label for="civility">1. Civilité</label>
+                <select id="civility" name="civilité">
+                    <option value="mme">Mme</option>
+                    <option value="mr">Mr</option>
+                </select></br>
+                <label for=name> 2.Nom :</label>
+                <input id="name" type="text" name="Nom" placeholder="Nom" /></br>
+                <label for=surname>3. Prénom : </label>
+                <input id="surname" type="text" size="10" maxlength="10" name="Prénom" placeholder="Prénom" /></br>
+                <label for="mail">4. Adresse mail :</label>
+                <input id="mail" type="text" size="10" maxlength="40" name="Adresse mail"
+                    placeholder="Adresse mail" /><br />
+            </div>
+        </fieldset>
+    </form>
+    <form method="POST">
+
+        <fieldset class="livraison">
+            <legend class="livraison">Adresse de livraison</legend>
+            <div class="marge">
+                <label for="adress"> 1. Adresse :</label>
+                <textarea id="adress" placeholder="70 rue des jacobins 80000 Amiens"></textarea></br>
+                <label for="postal"> 2. Code postal :</label>
+                <input id="postal" type="text" name="Nom" placeholder="code postal" /></br>
+                <label for="city">3. ville :</label>
+                <input id="city" type="text" size="10" maxlength="10" name="Prénom" placeholder="ville" /></br>
+            </div>
+
+        </fieldset>
+    </form>
+
+    <form method="POST">
+
+        <fieldset class="reglement">
+            <legend class="reglement">Information de réglement</legend>
+            <div class="marge">
+                <label for="card"> 1. Type de carte bancaire : </label></br>
+                <div class="margeradio">
+                    <input id="card" type="radio" name="Nom" value="VISA">VISA</br>
+                    <input id="card" type="radio" name="Nom" value="mastercard">Mastercard</br>
+                </div>
+                <label for="number"> 2. Numero de carte : </label>
+                <input id="number" type="text" placeholder="Numero de carte" /></br>
+                <label for="security">3. Code de sécurité :</label>
+                <input id="security" type="text" size="20" maxlength="10" placeholder="Code de sécurité" /></br>
+                <label for="titular">4. Nom du titulaire :</label>
+                <input id="titular" type="text" placeholder="Nom du titulaire"></br>
+            </div>
+
+        </fieldset>
+    </form>
+
+    <form>
+        <input type="submit" value="J'achéte!" />
+    </form>
+
+
+    </div>
+
+</body>
+</body>
+
+</html>
